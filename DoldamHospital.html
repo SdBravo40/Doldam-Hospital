@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Doldam Hospital</title>
+        <style type="text/css">
+        header{                   /*internal element CSS*/
+            text-align: center;
+            padding: 60px;
+            padding-bottom: 70px;
+            font-size: 40px;
+            height:50px;
+            background-color:gray;
+            font-family: sans-serif;
+            font-weight: bold;
+            background-color: white;
+        }
+        nav{
+           text-align: left;
+           background-color:green;
+           height: 44px;
+           font-size: 30px;
+           color: white;
+           font-family: sans-serif;
+           width: auto;
+           padding-left: 8px;
+           padding-top: 5px;
+        }
+        aside{
+            float: left;
+            height:660px;
+            background-color:skyblue;
+            width:320px;
+            font-size:20px;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .asideanchor{                 /*intenal class css*/
+            color:white;
+            font-size:18px;
+        }
+        .asideanchor:hover{      /*pseudo selector*/
+            color:white;
+        }
+        .er{
+            background-color:blue;
+            text-align: center;
+            font-size:20px;
+            padding:5px;
+            height:30px;
+            text-decoration: none;
+        }
+        .er:hover{                  
+            background-color: green;
+        }
+        .or{
+            background-color:blue;
+            text-align: center;
+            font-size:20px;
+            padding:5px;
+            height:30px;
+        }
+        .or:hover{
+            background-color:green;
+        }
+        .surgical{
+            background-color:blue;
+            text-align: center;
+            font-size:20px;
+            padding:5px;
+            height:30px;
+        }
+        .surgical:hover{
+            background-color: green;
+        }
+        .Cs{
+            background-color:blue;
+            text-align: center;
+            font-size:20px;
+            padding:5px;
+            height:30px;
+        }
+        .Cs:hover{
+            background-color:green ;
+        }
+        .neuro{
+            background-color:blue;
+            text-align: center;
+            font-size:20px;
+            padding:5px;
+            height:30px;
+        }
+        .neuro:hover{
+            background-color: green;
+        }
+        .ortho{
+            background-color:blue;
+            text-align: center;
+            font-size:20px;
+            padding:5px;
+            height:30px;
+        }
+        .ortho:hover{
+            background-color: green;
+        }
+        .phys{
+            background-color:blue;
+            text-align: center;
+            font-size:20px;
+            padding:5px;
+            height:30px;
+        }
+        .phys:hover{
+            background-color: green;
+        }
+        .nurse{
+            background-color:blue;
+            text-align: center;
+            font-size:20px;
+            padding:5px;
+            height:30px;
+        }
+        .nurse:hover{
+            background-color: green;
+        }
+        .outp{
+            background-color:blue;
+            text-align: center;
+            font-size:20px;
+            padding:5px;
+            height:30px;
+        }
+        .outp:hover{
+            background-color: green;
+        }
+        a:link{
+            text-decoration: none; /* to remove from undeline */
+        }
+        .asideright{
+            float: right;
+            background-color:skyblue;
+            height: 100px;
+            width: 350px;
+            padding-top: 15px;
+            height: 660px;
+        }
+        .appointment{
+            font-size: 25px;
+            background-color: blue;
+            color:white;
+            
+            border: blue;
+        }
+        .appointment:hover{
+            background-color: green;
+        }
+        section{
+           height: 800px;
+           background-color:white;
+           font-family: sans-serif;
+        }
+        footer{
+            background-color:white;
+            height:300px;
+            font-family: sans-serif;
+            font-size: 27px;
+            padding-left: 60px;
+            padding-top: 60px;
+            font-weight:bold;
+            
+        }
+        .foot{
+           color:rgb(3, 3, 78);
+        }
+        .foot:hover{
+            color: red;
+        }
+       
+        </style>
+    </head>
+    <body>
+        <!--This is header part-->
+       <header>
+           <img style="width: 100px;height: 100px;float: left;;" src="logo.jpg"> <!--image with inline css-->
+           <b style="color: teal;">Doldam</b><b style="color:limegreen;"> Hospital</b>
+        </header>
+
+        <!--This is navigation part-->
+       <nav>
+           Home   
+       </nav>
+
+       <!--This is left aside content-->
+       <aside>
+           <h3 style="color: red;">Departments<h3>
+            <div class="er">
+                <a class="asideanchor" href=" " target="_blank">Emergency Room(ER)</a><br><br>
+            </div><hr>
+           <div class="or">
+                <a class="asideanchor" href=" " target="_blank">Operating Room(OR)</a><br><br>
+           </div><hr>
+
+           <div class="surgical">
+              <a class="asideanchor" href=" " target="_blank">Surgical</a><br><br>
+           </div><hr>
+
+           <div class="Cs">
+             <a class="asideanchor" href=" " target="_blank">Cardiology</a><br><br>
+           </div><hr>
+
+          <div class="neuro">
+             <a class="asideanchor" href=" " target="_blank">Neurology</a><br><br>
+          </div><hr>
+
+          <div class="ortho">
+            <a class="asideanchor" href=" " target="_blank">Orthopedic</a><br><br>
+          </div><hr>
+
+          <div class="phys">
+            <a class="asideanchor" href=" " target="_blank">Physiotherepy</a><br><br>
+          </div><hr>
+
+          <div class="nurse">
+            <a class="asideanchor" href=" " target="_blank">Nursing</a><br><br>
+          </div><hr>
+
+          <div class="outp">
+            <a class="asideanchor" href=" " target="_blank">Outpatient</a>
+          </div><hr>  
+       </aside>
+
+       <!--This is right aside content-->
+       <aside class="asideright">
+          <h3 style="color: red;">Book your slot</h3><br>
+          <a href=" " target="_blank"> <input class="appointment" type="button" value="Take APPOINTMENT"> </a>
+          <br><br><br><br>
+          <img style="width: 350px;height: 255px;" src="image2.jpg"><br><br>
+          <h4 style="color: green;">Toll-Free Number
+              <br><br>
+              <b style="color:darkblue;">+(91)-893-603-0634</b>
+          </h4>
+       </aside>
+       
+       <!--This is section portion-->
+       <section>
+           <img style="width: 833.2px;" src="image1.jpg">
+           <h1 style="text-align: center;"><b style="color: green;">!! Welcome To </b>
+            <b style="color: teal;">Doldam</b>
+            <b style="color:lime;">Hospital</b></h1>
+            <img style="width:415px;" src="image5.jpg">
+            <img style="width:413.7px;" src="image4.jpg">
+       </section>
+       
+       <!--This is footer-->
+       <footer>
+        <a class="foot" href=" " target="_blank">About</a> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--for tab space-->
+        <a class="foot" href=" " target="_blank">Achievement</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--for tab space-->
+        <a class="foot" href=" " target="_blank">Success rate</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--for tab space-->
+        <a class="foot" href=" " target="_blank">Team</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--for tab space-->
+        <a class="foot" href=" " target="_blank">Apply</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--for tab space-->
+        <a class="foot" href=" " target="_blank">Charges</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--for tab space-->
+        <a class="foot" href=" " target="_blank">Notice</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--for tab space-->
+        <a class="foot" href=" " target="_blank">Rules</a><br><br><br>
+        <a class="foot" href=" " target="_blank">Contact us</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--for tab space-->
+        <a class="foot" href=" " target="_blank">Email</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--for tab space-->
+        <a class="foot" href=" " target="_blank">Facebook</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--for tab space-->
+        <a class="foot" href=" " target="_blank">Instagram</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--for tab space-->
+        <a class="foot" href=" " target="_blank">whatsapp</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--for tab space-->
+        <a class="foot" href=" " target="_blank">Telegram</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--for tab space-->
+        <a class="foot" href=" " target="_blank">Twitter</a><br><br>
+    
+       </footer>
+    </body>
